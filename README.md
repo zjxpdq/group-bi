@@ -1,4 +1,4 @@
-# tt-bi
+# group-bi
 
 > 淘通bi系统 v1.0.0
 
