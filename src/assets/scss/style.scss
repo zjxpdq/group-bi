@@ -1,0 +1,129 @@
+#app, body, html {
+  height: 100%;
+}
+
+//// 滚动条样式
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #2b3245;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px; //background: #f2f2f2;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none
+}
+
+input,
+textarea {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+}
+
+.v-transfer-dom {
+  .drawer-meun {
+    .ivu-drawer-header {
+      padding: 0;
+      height: 49px;
+
+      p {
+        height: 49px;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Montserrat, sans-serif;
+        text-align: center;
+        line-height: 49px;
+        color: #fff;
+        background: #3185db;
+      }
+    }
+
+    .ivu-drawer-body {
+      padding: 0;
+      background: #515a6e;
+    }
+  }
+}
+
+.tt-search-view {
+}
+
+.tt-content {
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #dcdfe6;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .12), 0 0 6px 0 rgba(0, 0, 0, .04);
+  padding: 10px;
+}
+
+.tt-table-blue {
+  .ivu-table th {
+    background: #409eff;
+    color: #fff;
+  }
+}
+
+.ivu-table-small th {
+  height: 35px;
+}
+
+.ivu-table th {
+  height: 35px;
+}
+
+.ivu-table-small td {
+  height: 35px;
+}
+
+.ivu-table-cell {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table.my-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.my-table,
+table.my-table tr th,
+table.my-table tr td {
+  border: 1px solid #ECF0F6;
+}
+
+.war-room .analyze .analyze-content .content-list .con-month-list .my-table ul li .ivu-poptip-rel {
+  width: 100%;
+}
+
+.staff-title {
+  height: 50px;
+  border-bottom: 1px solid #EDEDED;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  h4 {
+    font-size: 16px;
+  }
+}
+
+.ivu-btn-text:focus {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+
+td.ivu-table-expanded-cell {
+  padding: 0 0 0 0;
+}
